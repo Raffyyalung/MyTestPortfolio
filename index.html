@@ -14,12 +14,55 @@
         integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
 
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
 
 </head>
 
 
 <body>
-    <nav>
+    <div class="container">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Myportfolio</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Projects</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contact</a>
+                        </li>
+                        
+                    </ul>
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+
+    </div>
+
+    <!------------------------ end of bootstrap nav --------------------------->
+
+    <!-- <nav>
         <h2 class="logo"><span>My</span>Portfolio</h2>
         <ul>
 
@@ -29,7 +72,9 @@
             <li><a href="#contact">Contact</a></li>
         </ul>
         <a href="#contact" class="btn">Hire Me</a>
-    </nav>
+    </nav> -->
+
+    
     <!-------mainpage-------------->
     <div id="homepage">
         <div class="mainpage">
@@ -93,16 +138,17 @@
                             <h6>Certifications:</h6>
                             <div class="certifications-box">
                                 <a href="javascript certification.png" target="blank">
-                                <div class="certifications-card">
-                                    <img src="javascript certification.png">
-                                    <p>Javascript Certification</p>
-                                </div></a>
+                                    <div class="certifications-card">
+                                        <img src="javascript certification.png">
+                                        <p>Javascript Certification</p>
+                                    </div>
+                                </a>
                                 <a href="html certification.png" target="_blank">
-                                <div class="certifications-card">
-                                    <img src="html certification.png">
+                                    <div class="certifications-card">
+                                        <img src="html certification.png">
                                         <p>HTML Certification</p>
-                                </div>
-                            </a>
+                                    </div>
+                                </a>
                             </div>
                         </div>
                         <button type="button"><a href="#contact">Let's Talk</a></button>
@@ -313,6 +359,9 @@
         });
     </script>
 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
 
 
 </body>
