@@ -104,6 +104,9 @@ h4{
     transform:scale(1.2);
     box-shadow: 0 0 5px 3px #f9004d;
 }
+.intro{
+    color: azure;
+}
 .main img{
         width:630px;
 }
